@@ -1,0 +1,7 @@
+services:
+  food-delivery-app-login:
+    build: .
+    image: food-delivery-app-login:local
+    ports:
+      - "8160:8000"
+    restart: unless-stopped
